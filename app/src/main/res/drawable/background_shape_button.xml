@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="ring"
-    android:innerRadius="200dp"
-    android:thickness="10dp"
-    android:useLevel="false">
+    android:shape="rectangle">
 
-    <solid android:color="#4d4d4d" />
+    <size android:height="150dp"
+        android:width="150dp"/>
+
+    <solid android:color="#A6DCF4"/>
+
+    <corners android:radius="5dp"/>
+
+    <gradient
+        android:angle="90"
+        android:startColor="#A6DCF4"
+        android:endColor="#f20"/>
+
+    <stroke
+        android:width="1dp"
+        android:color="@color/black"
+        android:dashWidth="10dp"
+        android:dashGap="10dp"/>
 </shape>
